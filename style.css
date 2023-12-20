@@ -172,4 +172,10 @@ header {
 }
 /* This is the Header Contain Section End Here */
 /* This is the Header Section End Here */
+/* This is the Who is Shahadat Section Start Here */
+.who_is_shahadat {
+    background-color: aquamarine;
+    margin-top: 125px;
+}
+/* This is the Who is Shahadat Section End Here */
 /* background-image: linear-gradient(20deg,red,blue); */
