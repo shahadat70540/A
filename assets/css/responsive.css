@@ -1,0 +1,80 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* This is the Header Navbar Nav Section Start Here */
+    .nav nav ul li {
+        display: none;
+    }
+    /* This is the Header Navbar Nav Section End Here */
+    /* This is the Header Navbar Slicknav Section Start Here */
+    .slicknav_menu {
+        display: block;
+        width: 180px;
+        margin-top: -50px;
+    }
+    .slicknav_nav li {
+        margin-right: 20px;
+    }
+    .slicknav_btn {
+        font-size: 20px;
+    }
+    /* This is the Header Navbar Slicknav Section End Here */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* This is the Header Navbar Logo Section Start Here */
+    .logo {
+        width: 50%;
+    }
+    /* This is the Header Navbar Logo Section End Here */
+    /* This is the Header Navbar Nav Section Start Here */
+    .nav nav ul li {
+        display: none;
+    }
+    /* This is the Header Navbar Nav Section End Here */
+    /* This is the Header Navbar Slicknav Section Start Here */
+    .slicknav_menu {
+        display: block;
+        width: 180px;
+    }
+    .slicknav_nav li {
+        margin-right: 20px;
+    }
+    .slicknav_btn {
+        font-size: 20px;
+    }
+    /* This is the Header Navbar Slicknav Section End Here */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* This is the Header Navbar Logo Section Start Here */
+    .logo {
+        width: 50%;
+    }
+    /* This is the Header Navbar Logo Section End Here */
+    /* This is the Header Navbar Nav Section Start Here */
+    .nav nav ul li {
+        display: none;
+    }
+    /* This is the Header Navbar Nav Section End Here */
+    /* This is the Header Navbar Slicknav Section Start Here */
+    .slicknav_menu {
+        display: block;
+        width: 200px;
+        margin-top: -55px;
+    }
+    .slicknav_nav li {
+        margin-right: 25px;
+    }
+    .slicknav_btn {
+        font-size: 25px;
+    }
+    /* This is the Header Navbar Slicknav Section End Here */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

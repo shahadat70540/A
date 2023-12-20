@@ -1,0 +1,112 @@
+body{
+    background-color: #030712;
+    position: relative;
+}
+@font-face{
+    src: url(assets/fonts/MontserratAlternates-Bold.ttf);
+    font-family: MontserratAlternates-Bold;
+}
+/* This is the Header Section Start Here */
+/* This is the Header Section Back-Video Start Here */
+.back_video {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.video video {
+    width: 100%;
+    height: 100%;
+}
+/* This is the Header Section Back-Video End Here */
+/* This is the Header Navbar Section Start Here */
+header {
+    position: relative;
+}
+.Main_Nav {
+    background-color: #111827;
+    opacity: 0.5;
+    box-shadow: 0px 0px 5px 0px azure;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.Main_nav_one {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 10px !important;
+}
+/* This is the Header Navbar Logo Section Start Here */
+.logo {
+    width: 100%;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+/* This is the Header Navbar Logo Section End Here */
+/* This is the Header Navbar Nav Section Start Here */
+.nav {
+    margin-top: 10px;
+}
+.nav nav ul li {
+    display: inline-block;
+    padding: 10px 14px;
+    transition: 1s;
+}
+.nav nav ul li:last-child {
+    font-size: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.nav nav ul li:hover {
+    background-color: orangered;
+    border-radius: 10px;
+}
+.nav nav ul li a {
+    color: azure;
+    text-transform: uppercase;
+    font-family: MontserratAlternates-Bold;
+}
+.disabled {
+    padding: 0px !important;
+}
+/* This is the Header Navbar Slicknav Section Start Here */
+.slicknav_menu {
+    display: none;
+    width: 20%;
+    float: right;
+    text-transform: uppercase;
+    color: azure;
+    font-family: MontserratAlternates-Bold;
+    background-color: transparent;
+    margin-top: -40px;
+}
+.slicknav_nav li a:hover{
+    background-color: orangered;
+    border-radius: 5px;
+    transition: 1s;
+    color: azure;
+}
+.slicknav_nav li:last-child{
+    font-size: 12px;
+    background-color: orangered;
+    border-radius: 15px;
+    font-style: italic;
+}
+.slicknav_btn {
+    background-color: transparent !important;
+}
+/* This is the Header Navbar Slicknav Section End Here */
+/* This is the Header Navbar Nav Section End Here */
+/* This is the Header Navbar Section End Here */
+/* This is the Header Section End Here */
+/* background-image: linear-gradient(20deg,red,blue); */
