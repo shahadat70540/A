@@ -1,80 +1,214 @@
-/* // Extra small devices (portrait phones, less than 576px) */
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* This is the Header Navbar Logo Section Start Here */
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+    /* This is the Header Navbar Logo Section End Here */
     /* This is the Header Navbar Nav Section Start Here */
     .nav nav ul li {
         display: none;
     }
-    /* This is the Header Navbar Nav Section End Here */
     /* This is the Header Navbar Slicknav Section Start Here */
     .slicknav_menu {
         display: block;
-        width: 180px;
-        margin-top: -50px;
+        width: 50%;
     }
-    .slicknav_nav li {
-        margin-right: 20px;
+    .slicknav_nav li a{
+        font-size: 10px;
+    }
+    .slicknav_nav li a:hover{
+        border-radius: 25px;
+    }
+    .slicknav_nav li:last-child{
+        font-size: 8px;
     }
     .slicknav_btn {
-        font-size: 20px;
+        font-size: 18px;
+        margin-top: 5px;
     }
     /* This is the Header Navbar Slicknav Section End Here */
+    /* This is the Header Contain Section Start Here */
+    .main_contain {
+        top: 15%;
+    }
+    .main_contain_one h5 {
+        font-size: 10px;
+        margin-bottom: -10px;
+    }
+    .main_contain_one h1 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .main_contain_one h4 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .main_contain_one p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .main_contain_one a {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .main_contain_one a:last-child {
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-left: 0px;
+    }
+    .main_contain_one a i {
+        font-size: 10px;
+    }
+    /* This is the Header Contain Section End Here */
 }
 
-/* // Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* This is the Header Navbar Logo Section Start Here */
-    .logo {
-        width: 50%;
+    .logo img {
+        width: 60%;
+        height: 60%;
     }
     /* This is the Header Navbar Logo Section End Here */
     /* This is the Header Navbar Nav Section Start Here */
     .nav nav ul li {
         display: none;
     }
-    /* This is the Header Navbar Nav Section End Here */
     /* This is the Header Navbar Slicknav Section Start Here */
     .slicknav_menu {
         display: block;
-        width: 180px;
+        width: 35%;
     }
-    .slicknav_nav li {
-        margin-right: 20px;
+    .slicknav_nav li a{
+        border-radius: 25px;
+        transition: 1s;
+        color: azure;
+    }
+    .slicknav_nav li a:hover{
+        background-color: orangered;
+        border-radius: 25px;
+    }
+    .slicknav_nav li:last-child{
+        font-size: 10px;
     }
     .slicknav_btn {
-        font-size: 20px;
+        font-size: 22px;
+        margin-top: -5px;
     }
     /* This is the Header Navbar Slicknav Section End Here */
+    /* This is the Header Contain Section Start Here */
+    .main_contain {
+        top: 25%;
+    }
+    .main_contain_one h5 {
+        font-size: 14px;
+        margin-bottom: -5px;
+    }
+    .main_contain_one h1 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .main_contain_one h4 {
+        font-size: 18px;
+    }
+    .main_contain_one p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .main_contain_one a {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .main_contain_one a:last-child {
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-left: 5px;
+    }
+    .main_contain_one a i {
+        font-size: 15px;
+    }
+    /* This is the Header Contain Section End Here */
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* This is the Header Navbar Logo Section Start Here */
-    .logo {
+    .logo img {
         width: 50%;
+        height: 50%;
     }
     /* This is the Header Navbar Logo Section End Here */
     /* This is the Header Navbar Nav Section Start Here */
     .nav nav ul li {
         display: none;
     }
-    /* This is the Header Navbar Nav Section End Here */
     /* This is the Header Navbar Slicknav Section Start Here */
     .slicknav_menu {
         display: block;
-        width: 200px;
-        margin-top: -55px;
+        width: 30%;
     }
     .slicknav_nav li {
-        margin-right: 25px;
+        width: 130px;
+        margin-top: 5px;
+    }
+    .slicknav_nav li a{
+        border-radius: 25px;
+        transition: 1s;
+    }
+    .slicknav_nav li a:hover{
+        border-radius: 25px;
     }
     .slicknav_btn {
         font-size: 25px;
+        margin-top: -10px;
     }
     /* This is the Header Navbar Slicknav Section End Here */
+    /* This is the Header Navbar Section End Here */
+    /* This is the Header Contain Section Start Here */
+    .main_contain {
+        top: 30%;
+    }
+    .main_contain_one h5 {
+        font-size: 16px;
+        margin-bottom: -10px;
+    }
+    .main_contain_one h1 {
+        font-size: 22px;
+    }
+    .main_contain_one h4 {
+        font-size: 18px;
+    }
+    .main_contain_one p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .main_contain_one a {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .main_contain_one a:last-child {
+        font-size: 16px;
+        padding: 5px 15px;
+        padding: 5px 15px;
+        margin-left: 5px;
+    }
+    .main_contain_one a i {
+        font-size: 16px;
+    }
+    /* This is the Header Contain Section End Here */
+    /* This is the Header Section End Here */
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* This is the Header Contain Section Start Here */
+    .main_contain {
+        top: 35%;
+    }
+    /* This is the Header Contain Section End Here */
+}
 
-/* // Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }

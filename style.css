@@ -6,6 +6,18 @@ body{
     src: url(assets/fonts/MontserratAlternates-Bold.ttf);
     font-family: MontserratAlternates-Bold;
 }
+@font-face{
+    src: url(assets/fonts/Kalnia-Regular.ttf);
+    font-family: Kalnia-Regular;
+}
+@font-face{
+    src: url(assets/fonts/Kalnia-VariableFont_wdth\,wght.ttf);
+    font-family: Kalnia-VariableFont_wdth\,wght;
+}
+@font-face{
+    src: url(assets/fonts/PlayfairDisplay-Regular.ttf);
+    font-family: PlayfairDisplay-Regular;
+}
 /* This is the Header Section Start Here */
 /* This is the Header Section Back-Video Start Here */
 .back_video {
@@ -39,7 +51,6 @@ header {
     right: 0;
 }
 .Main_nav_one {
-    /* background-color: antiquewhite; */
     width: 100%;
     padding: 10px !important;
 }
@@ -53,23 +64,20 @@ header {
 }
 /* This is the Header Navbar Logo Section End Here */
 /* This is the Header Navbar Nav Section Start Here */
-.nav {
-    margin-top: 10px;
-}
 .nav nav ul li {
     display: inline-block;
     padding: 10px 14px;
+    border-radius: 20px;
     transition: 1s;
 }
 .nav nav ul li:last-child {
     font-size: 10px;
     background-color: orangered;
-    border-radius: 10px;
     padding: 5px 10px;
 }
 .nav nav ul li:hover {
     background-color: orangered;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .nav nav ul li a {
     color: azure;
@@ -108,5 +116,60 @@ header {
 /* This is the Header Navbar Slicknav Section End Here */
 /* This is the Header Navbar Nav Section End Here */
 /* This is the Header Navbar Section End Here */
+/* This is the Header Contain Section Start Here */
+.main_contain {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: azure;
+}
+.main_contain_one h5 {
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+    color: orangered;
+    font-weight: bold;
+}
+.main_contain_one h1 {
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+}
+.main_contain_one h4 {
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+}
+.main_contain_one p {
+    font-family: PlayfairDisplay-Regular;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.main_contain_one a {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    text-transform: uppercase;
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: 2s;
+}
+.main_contain_one a:hover {
+    background-color: rgb(172, 50, 6);
+}
+.main_contain_one a:last-child {
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+.main_contain_one a i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgb(172, 50, 6);
+    transition: 2s;
+}
+.main_contain_one a:hover i {
+    color: azure;
+}
+/* This is the Header Contain Section End Here */
 /* This is the Header Section End Here */
 /* background-image: linear-gradient(20deg,red,blue); */
