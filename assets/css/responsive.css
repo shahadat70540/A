@@ -62,6 +62,38 @@
         font-size: 10px;
     }
     /* This is the Header Contain Section End Here */
+    /* This is the Who is Shahadat Section Start Here */
+.who_is_shahadat {
+    margin-top: -330px;
+}
+/* This is the Who is Shahadat Picture Section Start Here */
+.who-is-shahadat-pic {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.who-is-shahadat {
+    width: 260px;
+    height: 260px;
+}
+.who-is {
+    width: 240px;
+    height: 240px;
+}
+/* This is the Who is Shahadat Picture Section End Here */
+/* This is the Who is Shahadat Contain Section Start Here */
+.who-is-shahadat-contain {
+    width: 100%;
+    height: 420px;
+}
+.who-is-shahadat-contain h1 {
+    font-size: 20px;
+}
+.who-is-shahadat-contain p {
+    font-size: 14px
+}
+/* This is the Who is Shahadat Contain Section End Here */
+/* This is the Who is Shahadat Section End Here */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -130,6 +162,43 @@
         font-size: 15px;
     }
     /* This is the Header Contain Section End Here */
+    /* This is the Who is Shahadat Section Start Here */
+    .who_is_shahadat {
+        margin-top: -200px;
+    }
+    /* This is the Who is Shahadat Picture Section Start Here */
+    .who-is-shahadat-pic {
+        width: 500px;
+        height: 500px;
+    }
+    .who-is-shahadat {
+        width: 420px;
+        height: 420px;
+    }
+    .who-is-shahadat-pic {
+        position: relative;
+    }
+    .who-is {
+        width: 400px;
+        height: 400px;
+    }
+    /* This is the Who is Shahadat Picture Section End Here */
+    /* This is the Who is Shahadat Contain Section Start Here */
+    .who-is-shahadat-contain {
+        width: 100%;
+        height: 450px !important;
+        position: relative;
+    }
+    .who-is-shahadat-contain-box {
+        width: 80%;
+        height: 400px;
+        margin-top: 10px;
+    }
+    .who-is-shahadat-contain p {
+        font-size: 16px;
+    }
+    /* This is the Who is Shahadat Contain Section End Here */
+    /* This is the Who is Shahadat Section End Here */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -199,6 +268,25 @@
     }
     /* This is the Header Contain Section End Here */
     /* This is the Header Section End Here */
+    /* This is the Who is Shahadat Section Start Here */
+    .who_is_shahadat {
+        margin-top: -50px;
+    }
+    /* This is the Who is Shahadat Picture Section Start Here */
+    .who-is-shahadat-pic {
+        width: 100%;
+    }
+    .who-is-shahadat-pic {
+        position: relative;
+    }
+    /* This is the Who is Shahadat Picture Section End Here */
+    /* This is the Who is Shahadat Contain Section Start Here */
+    .who-is-shahadat-contain {
+        width: 100%;
+        height: 450px;
+    }
+    /* This is the Who is Shahadat Contain Section End Here */
+    /* This is the Who is Shahadat Section End Here */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -208,6 +296,38 @@
         top: 35%;
     }
     /* This is the Header Contain Section End Here */
+    /* This is the Who is Shahadat Section Start Here */
+    .who_is_shahadat {
+        margin-top: 50px;
+    }
+    /* This is the Who is Shahadat Picture Section Start Here */
+    .who-is-shahadat-pic {
+        width: 500px;
+        height: 500px;
+    }
+    .who-is-shahadat {
+        width: 470px;
+        height: 470px;
+    }
+    .who-is {
+        width: 450px;
+        height: 450px;
+    }
+    /* This is the Who is Shahadat Picture Section End Here */
+    /* This is the Who is Shahadat Contain Section Start Here */
+    .who-is-shahadat-contain {
+        width: 490px;
+        height: 490px;
+    }
+    .who-is-shahadat-contain-box {
+        width: 75%;
+        height: 100%;
+    }
+    .who-is-shahadat-contain p {
+        font-size: 17px;
+    }
+    /* This is the Who is Shahadat Contain Section End Here */
+    /* This is the Who is Shahadat Section End Here */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
