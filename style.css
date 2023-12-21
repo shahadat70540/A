@@ -7,7 +7,7 @@ body{
     font-family: MontserratAlternates-Bold;
 }
 @font-face{
-    src: url(assets/fonts/Kalnia-Regular.ttf);
+    src: url(assets/fonts/);
     font-family: Kalnia-Regular;
 }
 @font-face{
@@ -39,6 +39,8 @@ body{
 /* This is the Header Navbar Section Start Here */
 header {
     position: relative;
+    width: 100%;
+    height: 759px;
 }
 .Main_Nav {
     background-color: #111827;
@@ -119,10 +121,10 @@ header {
 /* This is the Header Contain Section Start Here */
 .main_contain {
     width: 500px;
-    height: 500px;
+    height: 300px;
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 0;
+    left: 120px;
     bottom: 0;
     margin: auto;
     color: azure;
@@ -175,76 +177,52 @@ header {
 /* This is the Header Section End Here */
 /* This is the Who is Shahadat Section Start Here */
 .who_is_shahadat {
-    margin-top: 0px;
-}
-/* This is the Who is Shahadat Picture Section Start Here */
-.who-is-shahadat-pic {
-    width: 560px;
-    height: 560px;
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
     position: relative;
 }
-.who-is-shahadat {
-    box-shadow: 0px 0px 50px 5px blue;
-    background-image: linear-gradient(20deg,red,blue);
-    width: 490px;
-    height: 490px;
+.box1 {
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
+    background-image: linear-gradient(20deg, red, blue);
+    box-shadow: 0px 0px 60px 0px blue;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 30px;
     bottom: 0;
     margin: auto;
 }
-.who-is-shahadat-pic {
-    position: relative;
-}
-.who-is {
+.box1 .who_is_shahadat_pic {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
     background-color: #111827;
-    width: 475px;
-    height: 475px;
-    border-radius: 50%;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 10px;
     bottom: 0;
     margin: auto;
 }
-.who-is img {
+.box1 .who_is_shahadat_pic img {
     width: 100%;
     height: 100%;
 }
-/* This is the Who is Shahadat Picture Section End Here */
-/* This is the Who is Shahadat Contain Section Start Here */
-.who-is-shahadat-contain {
-    width: 560px;
-    height: 560px;
-    position: relative;
-}
-.who-is-shahadat-contain-box {
+.box2 {
+    width: 550px;
+    height: 550px;
+    background-color: #16409b;
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 80%;
-    height: 95%;
+    padding: 20px 40px;
     color: azure;
 }
-.who-is-shahadat-contain h1 {
-    font-family: Kalnia-Regular;
+.contan h1 {
+    font-family: PlayfairDisplay-Regular;
+
 }
-.who-is-shahadat-contain h1 span {
-    color: orangered;
-}
-.who-is-shahadat-contain p {
-    font-family: Kalnia-Regular;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-/* This is the Who is Shahadat Contain Section End Here */
 /* This is the Who is Shahadat Section End Here */
-/* background-image: linear-gradient(20deg,red,blue); */
