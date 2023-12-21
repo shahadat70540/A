@@ -118,10 +118,11 @@ header {
 /* This is the Header Navbar Section End Here */
 /* This is the Header Contain Section Start Here */
 .main_contain {
+    width: 500px;
+    height: 500px;
     position: absolute;
-    top: 45%;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 10%;
     bottom: 0;
     margin: auto;
     color: azure;
@@ -174,7 +175,7 @@ header {
 /* This is the Header Section End Here */
 /* This is the Who is Shahadat Section Start Here */
 .who_is_shahadat {
-    margin-top: 150px;
+    margin-top: 0px;
 }
 /* This is the Who is Shahadat Picture Section Start Here */
 .who-is-shahadat-pic {
