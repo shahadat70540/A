@@ -1,0 +1,808 @@
+body{
+    background-color: #030712;
+}
+@font-face{
+    src: url(assets/fonts/MontserratAlternates-Bold.ttf);
+    font-family: MontserratAlternates-Bold;
+}
+@font-face{
+    src: url(assets/fonts/Inter-Regular.ttf);
+    font-family: Inter-Regular;
+}
+/* THIS IS THE  HEADER SECTION START HERE  */
+header {
+    width: 100%;
+    height: 607px;
+    position: relative;
+}
+/* THIS IS THE HEADER BG-VIDEO SECTION START HERE */
+.full_video{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.full_video .video video{
+    min-width: 100%;
+    min-height: 100%;
+}
+/* THE HEADER BG-VIDEO SECTION ENDS HERE */
+
+/* THIS IS THE HEADER NAVBAR SECTION START HERE */
+.parent_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #111827;
+}
+.nav {
+    width: 100%;
+    padding: 10px 0px;
+}
+/* THIS IS THE HEADER NAVBAR LOGO SECTION START HERE */
+.nav_logo {
+    width: 50px;
+    height: 50px;
+}
+.nav_logo a img{
+    width: 100%;
+    height: 100%;
+}
+/* THE HEADER NAVBAR LOGO SECTION ENDS HERE */
+
+/* THIS IS THE HEADER NAVBAR NAV SECTION START HERE */
+.nav_start{
+    width: 95%;
+    text-align: right;
+}
+.nav_menu nav ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.nav_menu nav ul li:hover{
+    background-color: #FF4500;
+    border-radius: 10px;
+}
+.nav_menu nav ul li a {
+    text-transform: uppercase;
+    color: azure;
+    font-family: MontserratAlternates-Bold;
+}
+.nav_menu nav ul li:last-child{
+    font-size: 10px;
+    background-color: orange;
+    border-radius: 20px;
+    font-style: italic;
+}
+.nav-link {
+    padding: 0px 0px !important;
+}
+/* THE HEADER NAVBAR NAB SECTION ENDS HERE */
+/* THE HEADER NAVBAR SECTION ENDS HERE */
+
+/* THIS IS THE HEADER CONTANT SECTION START HERE */
+.contant {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.my_self{
+    font-family: Inter-Regular;
+    text-transform: capitalize;
+}
+.my_self h5{
+    color: orangered;
+    font-weight: 700;
+}
+.my_self h1{
+    color: azure;
+    font-weight: bold;
+}
+.my_self h4 {
+    color: azure;
+    font-style: italic;
+    font-size: 22px;
+}
+.my_self p{
+    color: rgb(160, 172, 172);
+    margin-bottom: 20px;
+}
+.my_self a{
+    color: azure;
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.my_self a:last-child{
+    margin-left: 10px;
+}
+.my_self a:last-child:hover .fa-whatsapp {
+    color: azure;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.my_self a .fa-whatsapp {
+    font-size: 18px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #FF4500;
+    transition: 2s;
+}
+.my_self a:hover{
+    background-color: #FF4500;
+}
+/* THE HEADER CONTANT SECTION ENDS HERE */
+/* THE HEADER SECTION ENDS HERE */
+
+/* THIS IS THE WHO IS SHAHADAT SECTION START HERE */
+.about {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+/* THIS IS THE WHO IS SHAHADAT PICTURE SECTION START HERE */
+.about_pic {
+    width: 50%;
+    float: left;
+}
+.pic{
+    background-image: linear-gradient(20deg, red, blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 0px 0px 60px 5px blue;
+    margin: 0px auto;
+    position: relative;
+}
+.pic .pic_bg {
+    background-color: #111827;
+    width: 480px;
+    height: 480px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.pic_bg img{
+    width: 100%;
+    height: 106%;
+}
+/* THE WHO IS SHAHADAT PICTURE SECTION ENDS HERE */
+
+/* THIS IS THE WHO IS SHAHADAT CONTANT SECTION START HERE */
+.who_is_shahadat {
+    width: 50%;
+    float: right;
+    padding: 0px 30px;
+    font-family: Inter-Regular;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    color: azure;
+}
+.box h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.box h1 span {
+    color: #FF4500;
+}
+.box p {
+    padding: 0px 25px;
+    font-size: 20px;
+}
+/* THE WHO IS SHAHADAT CONTANT SECTION ENDS HERE */
+/* THIS IS THE WHO IS SHAHADAT PROGRES BAR SECTION START HERE */
+.porgres {
+    width: 100%;
+    text-align: center;
+}
+.pogress_bar_1 {
+    margin-right: 20px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.pogress_bar_1 h2 {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    width: 85px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    margin: auto;
+}
+.pogress_bar_1 h1 {
+    font-family: Inter-Regular;
+    font-weight: 600;
+    color: azure;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.pogress_bar_2 {
+    margin-right: 20px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.pogress_bar_2 h2 {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 55px;
+    margin: auto;
+}
+.pogress_bar_2 h1 {
+    font-family: Inter-Regular;
+    font-weight: 600;
+    color: azure;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.pogress_bar_3 {
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.pogress_bar_3 h2 {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 55px;
+    margin: auto;
+}
+.pogress_bar_3 h1 {
+    font-family: Inter-Regular;
+    font-weight: 600;
+    color: azure;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/* THE WHO IS SHAHADAT PROGRES BAR SECTION START HERE */
+/* THE WHO IS SHAHADAT SECTION ENDS HERE */
+
+/* THIS IS THE SERVICES SECTION START HERE */
+.services {
+    overflow: hidden;
+}
+/* THIS IS THE SERVICES HEDDING SECTION START HERE */
+.hedding {
+    text-align: center;
+}
+.hedding h1 {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.hedding h3 {
+    font-family: Inter-Regular;
+    color: rgb(160, 172, 172);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: -30px;
+}
+/* THE SERVICES HEDDING SECTION ENDS HERE */
+/* THIS IS THE SERVICES SECTION SERVICES START HERE */
+.services_perent {
+    width: 100%;
+    padding: 30px 0px;
+    height: 240px;
+}
+
+.Services_box {
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #ADADAD;
+    text-align: center;
+    transition: 2s;
+    border: 3px solid orange;
+    box-shadow: 0px 0px 15px 0px gray;
+}
+.services_perent .Services_box:last-child{
+    margin-right: 0px;
+}
+.Services_box:hover {
+    box-shadow: 10px 10px 10px 0px blue;
+    background-color: #111827;
+    color: azure;
+}
+.Services_box:hover .icon i {
+    color: orangered;
+    font-size: 55px;
+}
+.icon{
+    height: 85px;
+    padding: 10px 0px;
+}
+.icon i {
+    font-size: 50px;
+    color: orange;
+    margin: 10px 0px;
+    transition: 1s;
+}
+.icon_head h4 {
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.icon_contant {
+    padding: 0px 10px;
+}
+.icon_contant p{
+    font-family: PlayfairDisplay-Regular;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* THE SERVICES SECTION SERVICES ENDS HERE */
+
+/* THIS IS THE SERVICES SECTION BOTTON START HERE */
+.Botton {
+    text-align: center;
+    margin: 50px 0px;
+}
+.Botton a {
+    background-color: orange;
+    padding: 15px 60px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+    color: azure;
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.Botton a:hover {
+    background-color: #FF4500 !important;
+    box-shadow: 5px 5px 5px 0px blue;
+}
+/* THE SERVICES SECTION BOTTON ENDS HERE */
+/* THE SERVICES SECTION ENDS HERE */
+
+/* THIS IS THE CLIENT'S LOVE SECTION START HERE */
+.client {
+    padding: 50px 0px;
+}
+/* THIS IS THE CLIENT'S LOVE SECTION HEDDING START HERE */
+.c_love h1 {
+    text-align: center;
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    color: azure;
+}
+.c_love h1 span {
+    font-size: 25px;
+}
+/* THE CLIENT'S LOVE SECTION HEDDING START HERE */
+
+/* THIS IS THE CLIENT'S LOVE SECTION CAROUSEL START HERE */
+.single-carousel-item {
+    padding: 20px 0px;
+    width: 100%;
+    height: 250px;
+}
+.single-carousel-item{
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+}
+.single-carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+.single-carousel-item {
+    position: relative;
+}
+.owl-prev {
+    position: absolute;
+    top: 35%;
+    left: 30px;
+    font-size: 50px !important;
+    color: azure !important;
+}
+.owl-next {
+    position: absolute;
+    top: 35%;
+    right: 30px;
+    font-size: 50px !important;
+    color: azure !important;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.owl-dots .owl-dot{
+    background-color: azure !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.owl-dots .active {
+    background-color: #FF4500 !important;
+}
+
+.client_1 {
+    text-align: center;
+    color: azure;
+    font-family: Inter-Regular;
+    position: relative;
+}
+.client_1 p{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.client_1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF4500;
+    padding: 20px 0px;
+}
+.client_1 h5 {
+    text-transform: capitalize;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+.client_1 h5 .uk_1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 200px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.client_1 h5 .uk_1 img {
+    width: 100%;
+    height: 100%;
+}
+.client_1 h5 .uk_2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    left: 200px;
+    bottom: 0;
+    margin: auto;
+}
+.client_1 h5 .uk_2 img {
+    width: 100%;
+    height: 100%;
+}
+/* THE CLIENT'S LOVE SECTION CAROUSEL START HERE */
+/* THE CLIENT'S LOVE SECTION START HERE */
+
+/* THIS IS THE SUCCESSES RATING SECTION START HERE */
+
+/* THIS IS THE SUCCESSES RATING SECTION HEDDING START HERE */
+.skill {
+    overflow: hidden;
+}
+.skill h1 {
+    font-family: MontserratAlternates-Bold;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+/* THE SUCCESSES RATING SECTION HEDDING ENDS HERE */
+.skill_rating_img {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/* THIS IS THE WHO IS SHAHADAT PICTURE SECTION START HERE */
+.skill_rating_img_one{
+    background-image: linear-gradient(20deg, blue, red);
+    width: 450px;
+    height: 450px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow: 0px 0px 60px 5px blue;
+    margin: 10px auto;
+    position: relative;
+}
+.skill_rating_img_two {
+    background-color: #111827;
+    width: 430px;
+    height: 430px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.skill_rating_img_three img{
+    width: 100%;
+    height: 110%;
+}
+/* THE WHO IS SHAHADAT PICTURE SECTION ENDS HERE */
+/* THIS IS THE SKILL RATING BAR SECTION START HERE */
+.skill_rating {
+    width: 50%;
+    height: 600px;
+    float: right;
+    padding: 50px;
+}
+.skill_rating p {
+    font-family: Inter-Regular;
+    color: azure;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.pogress_bar_4 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_5 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_6 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_7 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_8 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_9 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_10 {
+    width: 100%;
+    height: 20px;
+}
+/* THE SKILL RATING BAR SECTION ENDS HERE */
+/* THE SKILL RATING SECTION ENDS HERE */
+
+/* THIS IS THE BIOGRAPHY SECTION START HERE */
+.biography {
+    overflow: hidden;
+}
+/* THIS IS THE BIOGRAPHY BIO SECTION START HERE */
+.bio_box_1 {
+    width: 70%;
+    color: azure;
+    padding-right: 30px;
+    float: left;
+}
+.bio_box_1 h1 {
+    font-family: MontserratAlternates-Bold;
+    text-transform: capitalize;
+}
+.bio_box_1 p{
+    font-family: Inter-Regular;
+    text-transform: capitalize;
+    text-align: justify;
+    color: rgb(160, 172, 172);
+    font-size: 18px;
+    padding-right: 30px;
+}
+.bio_box_1 h3 {
+    font-style: italic;
+    font-family: Inter-Regular;
+    font-weight: 500;
+    font-size: 20px;   
+}
+.bio_box_1 h2 {
+    font-family: Inter-Regular;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.bio_box_1 h2 a span {
+    color: #FF4500;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* THE BIOGRAPHY BIO SECTION ENDS HERE */
+
+/* THIS IS THE BIOGRAPHY PICTURE SECTION START HERE */
+.bio_box_2 {
+    width: 30%;
+    height: 400px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-image: linear-gradient(20deg, blue, red);
+    position: relative;
+    float: right;
+}
+.bio_img_box {
+    width: 95%;
+    height: 95%;
+    box-shadow: 0px 0px 60px 0px  blue;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.bio_img_box img {
+    width: 100%;
+    height: 100%;
+}
+/* THE BIOGRAPHY PICTURE SECTION START HERE */
+/* THE BIOGRAPHY SECTION ENDS HERE */
+
+/* THIS IS THE EARLY LIFE SECTION START HERE */
+.early_life {
+    padding: 100px 0px;
+    overflow: hidden;
+}
+/* THIS IS THE EARLY LIFE PICTURE SECTION START HERE */
+.early1 {
+    width: 35%;
+    height: 260px;
+    background-color: antiquewhite;
+    float: left;
+    background-image: linear-gradient(20deg, red, blue);
+    position: relative;
+}
+.early_img_box {
+    background-color: #111827;
+    width: 370px;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.early_img_box img {
+    width: 100%;
+    height: 100%;
+}
+/* THE EARLY LIFE PICTURE SECTION START HERE */
+
+/* THIS IS THE EARLY LIFE BIO SECTION START HERE */
+.early2 {
+    float: right;
+    width: 60%;
+    padding-left: 30px;
+    color: azure;
+}
+.early2 h1 {
+    font-family: MontserratAlternates-Bold;
+    text-transform: capitalize;
+}
+.early2 p{
+    font-family: Inter-Regular;
+    text-transform: capitalize;
+    text-align: justify;
+    color: rgb(160, 172, 172);
+    font-size: 18px;
+}
+/* THE EARLY LIFE BIO SECTION START HERE */
+/* THE EARLY LIFE SECTION START HERE */
+
+/* THIS IS THE FOOTER SECTION START HERE */
+footer {
+    background-color: #111827;
+    text-align: center;
+    color: azure;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+footer h1 {
+    font-family: MontserratAlternates-Bold;
+    text-transform: capitalize;
+}
+footer p a {
+    transition: 2s;
+}
+footer p a:hover i {
+    color: red;
+    border: 2px solid blue;
+}
+footer p a i {
+    color: azure;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+    border: 2px solid transparent;
+}
+.copy {
+    width: 50%;
+    float: left;
+}
+.copy p {
+    text-align: left;
+    color: blue;
+    font-weight: 300;
+    font-family: Inter-Regular;
+    font-size: 14px;
+}
+.copy p a span {
+    font-size: 20px;
+    color: #FF4500;
+}
+.privicy {
+    width: 50%;
+    height: 30px;
+    float: right;
+    text-align: right;
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+}
+/* THE FOOTER SECTION ENDS HERE */
+/* HIS IS THE SCROLLTOP SECTION START HERE */
+.material-scrolltop {
+    background-color: transparent !important;
+    color: azure;
+}
+.material-scrolltop span i {
+    color: azure;
+    background-color: transparent !important;
+    font-size: 30px;
+}
+/* THE SCROLLTOP SECTION ENDS HERE */
+
+/* THIS IS THE SOCIL MEDIA SHARE SECTION START HERE */
+.share-bar {
+    top: 40%;
+    position: fixed;
+    z-index: 100;
+}
+.share-bar ul li {
+    background-color: transparent;
+    border: 2px solid blue;
+    transition: 1s;
+}
+.share-bar ul li:hover {
+    background-color: #FF4500 !important;
+}
+/* THE SOCIL MEDIA SHARE SECTION ENDS HERE */
