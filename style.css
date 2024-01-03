@@ -1,8 +1,114 @@
 body {
-    background-color: bisque;
+    font-family: Inter-Regular;
+    background-color: #2d3436;
+    color: whitesmoke;
 }
-.img {
-    width: 100px;
-    height: 100px;
-    border: 5px solid salmon;
+@font-face {
+    font-family: Inter-Regular;
+    src: url(assets/fonts/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: MontserratAlternates;
+    src: url(assets/fonts/MontserratAlternates-Bold.ttf);
+}
+/* THIS IS THE HEADER SECTION NAV OPACITY START HERE */
+.opacity {
+    background-color: #000000;
+    width: 100%;
+    height: 60px;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+/* THE HEADER SECTION NAV OPACITY ENDS HERE */
+/* THIS IS THE HEADER SECTION NAVIGATION START HERE */
+.nav_main {
+    width: 100%;
+    color: whitesmoke;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* THIS IS THE HEADER SECTION NAVIGATION ICON START HERE */
+.nav_main1 {
+    padding: 0px;
+    width: 100%;
+}
+.nav_main1 img {
+    width: 50px;
+    height: 50px;
+}
+/* THE HEADER SECTION NAVIGATION ICON ENDS HERE */
+/* THIS IS THE HEADER SECTION NAVIGATION NAV START HERE */
+.nav_main2 {
+    padding: 0px;
+    width: 100%;
+}
+.nav_main2 nav {
+    float: right;
+    padding: 5px 0px;
+}
+.nav_main2 nav ul {
+}
+.nav_main2 nav ul li {
+
+}
+.nav_main2 nav ul li a {
+    font-family: MontserratAlternates;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+/* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
+/* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
+.slicknav_menu {
+    display: none;
+    z-index: 10;
+    background-color: transparent;
+    font-family: MontserratAlternates;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.slicknav_nav {
+    /* background-color: goldenrod; */
+    /* margin-top: 60px; */
+}
+.slicknav_nav nav ul li:hover a {
+    background-color: #2d3436;
+    color: whitesmoke;
+}
+.slicknav_btn {
+    background-color: transparent;
+    font-size: 25px;
+    margin: 0;
+}
+/* THE HEADER SECTION NAVIGATION SLICKNAV ENDS HERE */
+/* THE HEADER SECTION NAVIGATION ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS THE HEADER BG-VIDEO SECTION START HERE */
+.back_video_main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+.back_video_main video{
+    min-width: 100%;
+    min-height: 100%;
+}
+/* THE HEADER BG-VIDEO SECTION ENDS HERE */
