@@ -10,6 +10,21 @@
         display: block;
     }
     /* THE HEADER SECTION NAVIGATION SLICKNAV ENDS HERE */
+    /* THIS IS THE HEADER SECTION MY SELF START HERE */
+    .my_self {
+        padding: 30px 20px;
+    }
+    .my_self h4 {
+        font-size: 20px;
+    }
+    .my_self h6 {
+        font-size: 15px;
+    }
+    .my_self p {
+        color: rgb(156 163 175);
+        font-size: 12px;
+    }
+    /* THE HEADER SECTION MY SELF ENDS HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */

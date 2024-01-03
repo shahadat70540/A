@@ -11,15 +11,27 @@ body {
     font-family: MontserratAlternates;
     src: url(assets/fonts/MontserratAlternates-Bold.ttf);
 }
+/* THIS IS THE HEADER SECTION BACKGROUND VIDEO START HERE */
+.back_video_main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.back_video_main video{
+    min-width: 100%;
+    min-height: 100%;
+}
+/* THE HEADER SECTION BACKGROUND VIDEO ENDS HERE */
 /* THIS IS THE HEADER SECTION NAV OPACITY START HERE */
 .opacity {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     height: 60px;
-    opacity: 0.1;
     position: fixed;
     top: 0;
-    z-index: -1;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 /* THE HEADER SECTION NAV OPACITY ENDS HERE */
 /* THIS IS THE HEADER SECTION NAVIGATION START HERE */
@@ -31,6 +43,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 2;
 }
 /* THIS IS THE HEADER SECTION NAVIGATION ICON START HERE */
 .nav_main1 {
@@ -59,13 +72,12 @@ body {
     transition: 1s;
 }
 .nav_main2 nav ul li a:hover {
-    background-color: rgb(22 55 238);
+    background-color: rgb(22 55 238 );
 }
 /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
 /* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
 .slicknav_menu {
     display: none;
-    z-index: 10;
     background-color: transparent;
     font-family: MontserratAlternates;
     color: whitesmoke;
@@ -81,6 +93,61 @@ body {
     margin: 0;
 }
 /* THE HEADER SECTION NAVIGATION SLICKNAV ENDS HERE */
+/* THIS IS THE HEADER SECTION MY SELF START HERE */
+.back_video_main {
+    position: relative;
+}
+.contant {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.my_self {
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding: 30px 0px;
+}
+.my_self h5 {
+    color: rgb(22 55 238 );
+    font-size: 18px;
+    font-weight: 600;
+}
+.my_self h4 {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.my_self h6 {
+    font-size: 25px;
+    font-family: 600;
+}
+.my_self p {
+    color: rgb(156 163 175);
+    font-size: 16px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.my_self a {
+    color: whitesmoke;
+    background-color: rgb(22 55 238 );
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.my_self .linkedin {
+    margin-left: 10px;
+}
+.my_self a:hover {
+    background-color: #1E37C4;
+    color: whitesmoke;
+}
+/* THE HEADER SECTION MY SELF ENDS HERE */
 /* THE HEADER SECTION NAVIGATION ENDS HERE */
 
 
@@ -97,7 +164,7 @@ body {
 
 
 /* THIS IS THE HEADER BG-VIDEO SECTION START HERE */
-.back_video_main{
+/* .back_video_main{
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -106,5 +173,5 @@ body {
 .back_video_main video{
     min-width: 100%;
     min-height: 100%;
-}
+} */
 /* THE HEADER BG-VIDEO SECTION ENDS HERE */
