@@ -56,7 +56,7 @@ body {
     font-family: MontserratAlternates;
     color: whitesmoke;
     text-transform: uppercase;
-    transition: 2s;
+    transition: 1s;
 }
 .nav_main2 nav ul li a:hover {
     background-color: rgb(22 55 238);
