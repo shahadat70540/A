@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- THIS IS THE HEADER SECTION START HERE -->
-    <header>
+    <header id="home">
         <!-- THIS IS THE HEADER SECTION BACKGROUND VIDEO START HERE -->
         <div class="back_video_main">
             <video autoplay muted loop>
@@ -42,10 +42,10 @@
                     <div class="nav_main_nav">
                         <nav>
                             <ul class="nav">
-                                <li class="nav-items"><a class="nav-link" href="https://shahadat70540.github.io/protfolio/">home</a></li>
+                                <li class="nav-items"><a class="nav-link" href="#home">home</a></li>
                                 <li class="nav-items"><a class="nav-link" href="#about">about</a></li>
-                                <li class="nav-items"><a class="nav-link" href="">portfolio</a></li>
-                                <li class="nav-items"><a class="nav-link" href="">services</a></li>
+                                <li class="nav-items"><a class="nav-link disabled" href="">portfolio</a></li>
+                                <li class="nav-items"><a class="nav-link" href="#Services">services</a></li>
                                 <li class="nav-items"><a class="nav-link" href="">pricing</a></li>
                                 <li class="nav-items"><a class="nav-link" href=""><small>get in touch</small></a></li>
                             </ul>
@@ -73,50 +73,160 @@
     <!-- THIS IS THE MAIN CONTAINT START HERE -->
     <main>
         <!-- THIS IS THE ABOUT SECTION START HERE -->
-        <section id="about">
+        <section id="about" class="container-fliud">
             <div class="row">
                 <!-- THIS IS THE ABOUT SECTION IMAGE START HERE -->
-                <div class="col-xl-6">
-                    <div class="about1">
+                <div class="col-xl-7 col-lg-7 col-12">
+                    <div class="about_one">
                         <div class="about2">
                             <img src="assets/img/my.png" alt="MD Shahadat Hossain">
                         </div>
                     </div>
                 </div>
                 <!-- THE ABOUT SECTION IMAGE ENDS HERE -->
-                <div class="col-xl-6">
+                <div class="col-xl-5 col-lg-5 col-12">
                     <!-- THIS IS THE ABOUT SECTION ABOUT CONTANT START HERE -->
-                    <div class="about3">
+                    <div class="about_two">
                         <h1><span>Who is</span> Shahadat?</h1>
-                        <p>MD Shahadat Hossain is known as Shahadat on social media networks like Facebook, YouTube, LinkedIn, Instagram Twitter, etc. He is a popular freelancer in Bangladesh.</p>
-                        <br>
-                        <p>Moreover, I have built 100+ websites for my clients over the past years. I pride myself on producing quality work and maintaining excellent communication. I mostly work with HTML5, CSS3, SASS, BOOTSTRAP, JQUERY, JAVASCRIPT, PHP, and WordPress.</p>
+                        <p>MD Shahadat Hossain is known as Shahadat on social media networks like
+                            <a href="https://www.facebook.com/shahadathossain70540/" target="_blank">Facebook</a>,
+                            <a href="https://www.youtube.com/@shahadat_70540" target="_blank">YouTube</a>, 
+                            <a href="https://www.linkedin.com/in/shahadat70540/" target="_blank">LinkedIn</a>, 
+                            <a href="https://www.instagram.com/shahadat70540/" target="_blank">Instagram</a>, 
+                            <a href="https://twitter.com/Shahadat70540" target="_blank">Twitter</a>,
+                            <a href="https://www.fiverr.com/shahadat_70540" target="_blank">fiverr</a>,
+                            <a href="" target="_blank">freelancer</a>,
+                            <a href="" target="_blank">upwork</a> etc. his user id is <span>shahadat70540</span>. He is a popular freelancer in Bangladesh. <br><br> Moreover, I have built 100+ websites for my clients over the past years. I pride myself on producing quality work and maintaining excellent communication. I mostly work with HTML5, CSS3, SASS, BOOTSTRAP, JQUERY, JAVASCRIPT, PHP, and WordPress.</p>
                     </div>
                     <!-- THE ABOUT SECTION ABOUT CONTANT ENDS HERE -->
                     <!-- THIS IS THE ABOUT SECTION PROGRESBAR START HERE -->
-                    <div class="about_porgres">
-
+                     <div class="about_porgres">
                         <div class="pogress_bar_1">
-                            <h2>100+</h2>
-                            <h1>success rate</h1>
+                            <h4>100+</h4>
+                            <p>success rate</p>
                         </div>
-
-                        <div class="pogress_bar_2 wow">
-                            <h2>1000+</h2>
-                            <h1>hours of work</h1>
+                        <div class="pogress_bar_2">
+                            <h4>1000+</h4>
+                            <p>hours of work</p>
                         </div>
-
-                        <div class="pogress_bar_3 wow">
-                            <h2>100+</h2>
-                            <h1>happy clients</h1>
+                        <div class="pogress_bar_3">
+                            <h4>100+</h4>
+                            <p>happy clients</p>
                         </div>
-
+                    </div>
+                    <!-- THE ABOUT SECTION PROGRESBAR ENDS HERE -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- THIS IS THE ABOUT SECTION PROGRESBAR START HERE -->
+                    <div class="about_porgres one_porgres">
+                        <div class="pogress_bar_1">
+                            <h4>100+</h4>
+                            <p>success rate</p>
+                        </div>
+                        <div class="pogress_bar_2">
+                            <h4>1000+</h4>
+                            <p>hours of work</p>
+                        </div>
+                        <div class="pogress_bar_3">
+                            <h4>100+</h4>
+                            <p>happy clients</p>
+                        </div>
                     </div>
                     <!-- THE ABOUT SECTION PROGRESBAR ENDS HERE -->
                 </div>
             </div>
         </section>
         <!-- THE ABOUT SECTION START HERE -->
+
+        <!-- THIS IS THE SERVICES SECTION START HERE -->
+        <section class="container" id="Services">
+            <h1>Services</h1>
+            <h3>what you can get from me?</h3>
+            <!-- THIS IS THE SERVICES SECTION SERVICES START HERE -->
+            <div class="services_perent">
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-address-card"></i>
+                        <h4>HTML Email Signature</h4>
+                        <p>I will create a fully responsive HTML email signature.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-brands fa-html5"></i>
+                        <h4>psd to html</h4>
+                        <p>I will convert your PSD to HTML5 with the Latest Bootstrap and It will be fully responsive.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <h4>psd to wordpress</h4>
+                        <p>I will convert your PSD to WordPress with Elementor. It will be fully responsive.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-pen"></i>
+                        <h4>blog design</h4>
+                        <p>You can get an awesome and modern design blog by hand code or WordPress.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-laptop"></i>
+                        <h4>BUSINESS WEBSITE </h4>
+                        <p>You will get here a modern and highly conversational business website which will increase conversion.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h4>E-commerce</h4>
+                        <p>you can get here a fully functional e-commerce website and nice product pages.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h4>Restaurant website </h4>
+                        <p>you can get a modern restaurant website and food ordering website hand code or WordPress.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <h4>REAL ESTATE WEBSITE</h4>
+                        <p>You will get an attractive real estate website with your requirements in hand cord or WordPress.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+                <div class="services_back">
+                    <div class="Services_box">
+                        <i class="fa-solid fa-shop"></i>
+                        <h4>MULTI VENDOR WEBSITE</h4>
+                        <p>you can get a fully functional Multi-vendor e-commerce website with the Dokan Pro plugin.</p>
+                        <a class="btn" href="">See more!</a>
+                    </div>
+                </div>
+            </div>
+            <!-- THE SERVICES SECTION SERVICES ENDS HERE -->
+            <!-- THIS IS THE SERVICES SECTION BOTTON START HERE -->
+            <div class="Botton">
+                <a class="btn" href="#" target="_blank">Get in touch!</a>
+            </div>
+            <!-- THE SERVICES SECTION BOTTON ENDS HERE -->
+        </section>
+        <!-- THE SERVICES SECTION ENDS HERE -->
     </main>
     <!-- THE MAIN CONTAINT ENDS HERE -->
 

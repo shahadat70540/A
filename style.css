@@ -2,6 +2,7 @@ body {
     font-family: Inter-Regular;
     background-color: #1e272e;
     color: whitesmoke;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: Inter-Regular;
@@ -151,23 +152,22 @@ body {
 /* THE HEADER SECTION NAVIGATION ENDS HERE */
 /* THIS IS THE ABOUT SECTION START HERE */
 #about {
-    width: 100%;
-    padding: 100px 0px;
+    padding: 100px 10px;
 }
 /* THIS IS THE ABOUT SECTION IMAGE START HERE */
-.about1 {
-    width: 550px;
-    height: 550px;
+.about_one {
+    width: 700px;
+    height: 700px;
     border-radius: 50%;
     margin: auto;
+    background-image: linear-gradient(25deg, red, blue);
+    box-shadow:  -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
     position: relative;
-    background-image: linear-gradient(20deg,#F70000 ,rgb(22 55 238 ));
-    box-shadow: 10px -10px 60px 0px rgb(22 55 238 ), -10px 10px 60px 0px #F70000;
 }
 .about2 {
     background-color: #1e272e;
-    width: 525px;
-    height: 525px;
+    width: 670px;
+    height: 670px;
     border-radius: 50%;
     margin: auto;
     position: absolute;
@@ -180,30 +180,225 @@ body {
 }
 /* THE ABOUT SECTION IMAGE ENDS HERE */
 /* THIS IS THE ABOUT SECTION ABOUT CONTANT START HERE */
-.about3 {
-    padding: 0px 0px;
-    background-color: rgb(107, 66, 36);
+.about_two {
     width: 100%;
+    padding: 50px 0px;
 }
-.about3 h1 {
+.about_two h1 {
     font-size: 28px;
     font-weight: 600;
 }
-.about3 h1 span {
+.about_two h1 span {
     color: rgb(22 55 238 );
 }
-.about3 p {
-    font-size: 16;
+.about_two p {
+    font-size: 18px;
     color: rgb(203 213 225);
+    padding: 30px 50px;
+    line-height: 25px;
+    text-align: justify;
+}
+.about_two p a {
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+.about_two p span {
+    color: rgb(22 55 238 );
+    text-transform: lowercase;
+    font-weight: 600;
+    font-style: italic;
 }
 /* THE ABOUT SECTION ABOUT CONTANT ENDS HERE */
 /* THIS IS THE ABOUT SECTION PROGRESBAR START HERE */
 .about_porgres {
-    background-color: salmon;
     display: flex;
+}
+.pogress_bar_1 {
+    text-align: center;
+    position: relative;
+}
+.pogress_bar_1 h4 {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    bottom: 35px;
+    margin: auto;
+}
+.pogress_bar_1 p {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.pogress_bar_2 {
+    margin: 0px 20px;
+    text-align: center;
+    position: relative;
+}
+.pogress_bar_2 h4 {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    bottom: 35px;
+    margin: auto;
+}
+.pogress_bar_2 p {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.pogress_bar_3 {
+    text-align: center;
+    position: relative;
+}
+.pogress_bar_3 h4 {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    bottom: 35px;
+    margin: auto;
+}
+.pogress_bar_3 p {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.one_porgres {
+    display: none;
 }
 /* THE ABOUT SECTION PROGRESBAR ENDS HERE */
 /* THE ABOUT SECTION START HERE */
+/* THIS IS THE SERVICES SECTION START HERE */
+#Services {
+    padding: 0;
+}
+#Services h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MontserratAlternates-Bold;
+    font-size: 50px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+#Services h3 {
+    color: rgb(203 213 225);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+/* THIS IS THE SERVICES SECTION SERVICES START HERE */
+.services_perent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0px;
+    grid-gap: 30px;
+}
+.services_back {
+    width: 360px;
+    height: 250px;
+    margin-top: 10px;
+    background-image: linear-gradient(20deg, red, blue);
+    border-radius: 10px;
+    box-shadow:  -5px 5px 15px #bebebe, 5px -5px 15px #ffffff;
+    position: relative;
+}
+.Services_box {
+    width: 345px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: rgb(203 213 225);
+    color: #1e272e;
+    text-align: center;
+    transition: 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Services_box i {
+    font-size: 50px;
+    color: rgb(22 55 238 );
+    padding: 15px;
+    transition: 3s;
+}
+.Services_box h4 {
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.Services_box p{
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.Services_box a {
+    color: whitesmoke;
+    background-color: rgb(22 55 238 );
+    font-size: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    transition: 2s;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.Services_box:hover {
+    background-color: #111827;
+    color: whitesmoke;
+}
+.Services_box:hover i {
+    color: rgb(203 213 225);
+    font-size: 50px;
+}
+.Services_box:hover a {
+    background-color: #1E37C4;
+    color: whitesmoke;
+}
+/* THE SERVICES SECTION SERVICES ENDS HERE */
+/* THIS IS THE SERVICES SECTION BOTTON START HERE */
+.Botton {
+    text-align: center;
+    margin: 50px 0px;
+}
+.Botton a {
+    color: whitesmoke;
+    background-color: rgb(22 55 238 );
+    font-size: 20px;
+    padding: 10px 0px;
+    width: 300px;
+    transition: 2s;
+    border-radius: 10px;
+    font-family: MontserratAlternates-Bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    box-shadow: 0px 0px 20px #ffffff;
+}
+
+.Botton a:hover {
+    background-color: #1E37C4;
+    color: whitesmoke;
+    box-shadow:  -10px 10px 40px #bebebe, 10px -10px 40px #ffffff;
+}
+/* THE SERVICES SECTION BOTTON ENDS HERE */
+/* THE SERVICES SECTION ENDS HERE */
+
 
 
 
