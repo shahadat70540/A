@@ -1,6 +1,6 @@
 body {
     font-family: Inter-Regular;
-    background-color: #2d3436;
+    background-color: #1e272e;
     color: whitesmoke;
 }
 @font-face {
@@ -24,7 +24,7 @@ body {
 /* THE HEADER SECTION BACKGROUND VIDEO ENDS HERE */
 /* THIS IS THE HEADER SECTION NAV OPACITY START HERE */
 .opacity {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 60px;
     position: fixed;
@@ -149,29 +149,109 @@ body {
 }
 /* THE HEADER SECTION MY SELF ENDS HERE */
 /* THE HEADER SECTION NAVIGATION ENDS HERE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* THIS IS THE HEADER BG-VIDEO SECTION START HERE */
-/* .back_video_main{
+/* THIS IS THE ABOUT SECTION START HERE */
+#about {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 1;
+    padding: 100px 0px;
 }
-.back_video_main video{
-    min-width: 100%;
-    min-height: 100%;
-} */
-/* THE HEADER BG-VIDEO SECTION ENDS HERE */
+/* THIS IS THE ABOUT SECTION IMAGE START HERE */
+.about1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    background-image: linear-gradient(20deg,#F70000 ,rgb(22 55 238 ));
+    box-shadow: 10px -10px 60px 0px rgb(22 55 238 ), -10px 10px 60px 0px #F70000;
+}
+.about2 {
+    background-color: #1e272e;
+    width: 525px;
+    height: 525px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+/* THE ABOUT SECTION IMAGE ENDS HERE */
+/* THIS IS THE ABOUT SECTION ABOUT CONTANT START HERE */
+.about3 {
+    padding: 0px 0px;
+    background-color: rgb(107, 66, 36);
+    width: 100%;
+}
+.about3 h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.about3 h1 span {
+    color: rgb(22 55 238 );
+}
+.about3 p {
+    font-size: 16;
+    color: rgb(203 213 225);
+}
+/* THE ABOUT SECTION ABOUT CONTANT ENDS HERE */
+/* THIS IS THE ABOUT SECTION PROGRESBAR START HERE */
+.about_porgres {
+    background-color: salmon;
+    display: flex;
+}
+/* THE ABOUT SECTION PROGRESBAR ENDS HERE */
+/* THE ABOUT SECTION START HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS THE SOCIL MEDIA SHARE SECTION START HERE */
+.share-bar {
+    position: fixed;
+    top: 35%;
+    right: 0;
+}
+.share-bar ul li {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid rgb(22 55 238 );
+    transition: 1s;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.share-bar ul li i {
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.share-bar ul li:hover {
+    background-color: #1E37C4 !important;
+}
+/* THE SOCIL MEDIA SHARE SECTION ENDS HERE */
