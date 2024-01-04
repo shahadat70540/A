@@ -24,7 +24,7 @@ $(document).ready(function(){
     // THIS IS THE ABOUT SECTION PROGRESBAR START HERE
     $('.pogress_bar_1').circleProgress({
         value: 1,
-        size: 140,
+        size: 150,
         fill: {
         gradient: ["#F70000", "rgb(22 55 238 )"]
         },
@@ -32,7 +32,7 @@ $(document).ready(function(){
       });
     $('.pogress_bar_2').circleProgress({
         value: 1,
-        size: 140,
+        size: 150,
         fill: {
         gradient: ["rgb(22 55 238 )", "#F70000"]
         },
@@ -40,7 +40,7 @@ $(document).ready(function(){
       });
     $('.pogress_bar_3').circleProgress({
         value: 1,
-        size: 140,
+        size: 150,
         fill: {
         gradient: ["#F70000", "rgb(22 55 238 )"]
         },
