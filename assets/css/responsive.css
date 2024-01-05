@@ -116,33 +116,50 @@
     }
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
     /* THIS IS THE EARLY LIFE SECTION START HERE */
+    /* THIS IS THE EARLY LIFE SECTION START HERE */
     #early_life {
-        padding: 100px 0px;
+        margin-top: 0px;
     }
     /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
-    .early {
+    .early_img {
         display: none;
-        width: 340px;
-        height: 240px;
+        width: 350px;
+        height: 250px;
+        border-radius: 6px;
     }
     .early_img_box {
-        width: 320px;
-        height: 220px;
+        width: 330px;
+        height: 230px;
     }
-    .early_bio_mobile {
-        display: none;
-    }
-    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THE EARLY LIFE SECTION PICTURE ENDS HERE */
     /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
-    .early_bio {
-        padding-left: 0px;
-        margin-bottom: 100px;
-    }
-    .ealry_img_mobile {
+    .copy_img {
         display: block;
+        margin-top: 50px;
     }
     /* THE EARLY LIFE SECTION BIO START HERE */
-    /* THE EARLY LIFE SECTION START HERE */
+    /* THE EARLY LIFE SECTION ENDS HERE */
+    /* THIS IS THE FOOTER SECTION START HERE */
+    footer h1 {
+        font-size: 30px;
+    }
+    footer p a {
+        transition: 2s;
+    }
+    footer p a i {
+        font-size: 15px;
+        width: 38px;
+        height: 38px;
+    }
+    .main_one {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .main_two {
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* THE FOOTER SECTION ENDS HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -222,32 +239,27 @@
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
     /* THIS IS THE EARLY LIFE SECTION START HERE */
     #early_life {
-        padding: 100px 0px;
+        margin-top: 50px;
     }
     /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
-    .early {
+    .early_img {
         display: none;
         width: 450px;
         height: 350px;
+        border-radius: 6px;
     }
     .early_img_box {
         width: 430px;
         height: 330px;
     }
-    .early_bio_mobile {
-        display: none;
-    }
-    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THE EARLY LIFE SECTION PICTURE ENDS HERE */
     /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
-    .early_bio {
-        padding-left: 0px;
-        margin-bottom: 100px;
-    }
-    .ealry_img_mobile {
+    .copy_img {
         display: block;
+        margin-top: 50px;
     }
     /* THE EARLY LIFE SECTION BIO START HERE */
-    /* THE EARLY LIFE SECTION START HERE */
+    /* THE EARLY LIFE SECTION ENDS HERE */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -333,32 +345,27 @@
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
     /* THIS IS THE EARLY LIFE SECTION START HERE */
     #early_life {
-        padding: 100px 0px;
+        margin-top: 50px;
     }
     /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
-    .early {
+    .early_img {
         display: none;
         width: 450px;
         height: 350px;
+        border-radius: 6px;
     }
     .early_img_box {
         width: 430px;
         height: 330px;
     }
-    .early_bio_mobile {
-        display: none;
-    }
-    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THE EARLY LIFE SECTION PICTURE ENDS HERE */
     /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
-    .early_bio {
-        padding-left: 0px;
-        margin-bottom: 100px;
-    }
-    .ealry_img_mobile {
+    .copy_img {
         display: block;
+        margin-top: 50px;
     }
     /* THE EARLY LIFE SECTION BIO START HERE */
-    /* THE EARLY LIFE SECTION START HERE */
+    /* THE EARLY LIFE SECTION ENDS HERE */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -421,6 +428,33 @@
         height: 340px;
     }
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
+    /* THIS IS THE EARLY LIFE SECTION START HERE */
+    #early_life {
+        padding: 30px 0px;
+    }
+    /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
+    .early_img {
+        width: 355px;
+        height: 255px;
+    }
+    .early_img_box {
+        width: 335px;
+        height: 235px;
+    }
+    /* THE EARLY LIFE SECTION PICTURE ENDS HERE */
+    /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
+    .early_bio h1 {
+        padding: 0px 0px 20px 60px;
+    }
+    .early_bio p {
+        padding: 0px 80px;
+        font-size: 15px;
+    }
+    .copy_img {
+        display: none;
+    }
+    /* THE EARLY LIFE SECTION BIO START HERE */
+    /* THE EARLY LIFE SECTION ENDS HERE */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
