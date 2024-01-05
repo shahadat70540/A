@@ -97,6 +97,24 @@
     }
     /* THE SKILL RATING PICTURE SECTION ENDS HERE */
     /* THE SKILL RATING SECTION ENDS HERE */
+    /* THIS IS THE BIOGRAPHY SECTION PICTURE START HERE */
+    #biography {
+        padding: 0px;
+        margin-top: -50px;
+        padding-bottom: 50px;
+    }
+    .bio_img_box_main {
+        padding-top: 50px;
+    }
+    .bio_box_2 {
+        width: 320px;
+        height: 320px;
+    }
+    .bio_img_box {
+        width: 300px;
+        height: 300px;
+    }
+    /* THE BIOGRAPHY PICTURE SECTION START HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -158,6 +176,22 @@
     }
     /* THE SERVICES SECTION SERVICES ENDS HERE */
     /* THE SERVICES SECTION ENDS HERE */
+    /* THIS IS THE BIOGRAPHY SECTION PICTURE START HERE */
+    #biography {
+        padding: 0px;
+    }
+    .bio_img_box_main {
+        padding-top: 50px;
+    }
+    .bio_box_2 {
+        width: 450px;
+        height: 450px;
+    }
+    .bio_img_box {
+        width: 430px;
+        height: 430px;
+    }
+    /* THE BIOGRAPHY PICTURE SECTION START HERE */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -225,6 +259,22 @@
     }
     /* THE SERVICES SECTION SERVICES ENDS HERE */
     /* THE SERVICES SECTION ENDS HERE */
+    /* THIS IS THE BIOGRAPHY SECTION PICTURE START HERE */
+    #biography {
+        padding: 0px;
+    }
+    .bio_img_box_main {
+        padding-top: 50px;
+    }
+    .bio_box_2 {
+        width: 450px;
+        height: 450px;
+    }
+    .bio_img_box {
+        width: 430px;
+        height: 430px;
+    }
+    /* THE BIOGRAPHY PICTURE SECTION START HERE */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -277,6 +327,16 @@
     }
     /* THE SERVICES SECTION SERVICES ENDS HERE */
     /* THE SERVICES SECTION ENDS HERE */
+    /* THIS IS THE BIOGRAPHY SECTION PICTURE START HERE */
+    .bio_box_2 {
+        width: 320px;
+        height: 360px;
+    }
+    .bio_img_box {
+        width: 300px;
+        height: 340px;
+    }
+    /* THE BIOGRAPHY PICTURE SECTION START HERE */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
