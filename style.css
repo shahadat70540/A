@@ -67,13 +67,28 @@ body {
 }
 .nav_main2 nav ul li a {
     border-radius: 10px;
-    font-family: MontserratAlternates;
+    font-family: Inter-Regular;
     color: whitesmoke;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
     transition: 1s;
 }
 .nav_main2 nav ul li a:hover {
     background-color: rgb(22 55 238 );
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdown-menu a {
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.dropdown-menu a:last-child {
+    margin-bottom: 0px;
+}
+.dropdown-menu:hover a {
+    color: whitesmoke;
 }
 /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
 /* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
