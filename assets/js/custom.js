@@ -133,4 +133,13 @@ $(document).ready(function(){
         duration: 3000,
     });
     // THE SKILL RATING BAR SECTION ENDS HERE
+    // THIS IS THE SMOOTH SCROLL START HERE
+    $('html').smoothScroll(600);
+    // THE SMOOTH SCROLL ENDS HERE
+    // HIS IS THE SCROLLTOP SECTION START HERE
+    $('body').materialScrollTop({
+      duration: 1000,
+      easing: 'swing',
+    });
+  // THE SCROLLTOP SECTION ENDS HERE
 });
