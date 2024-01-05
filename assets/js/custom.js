@@ -58,4 +58,79 @@ $(document).ready(function(){
       nav: true,
     });
     // This is the Client's Love Section End Here
+
+    // THIS IS THE SKILL RATING BAR SECTION START HERE
+    $('.pogress_bar_4').LineProgressbar({
+      percentage: 90,
+      fillBackgroundColor: 'orange',
+      height: '10px',
+      radius: '15px',
+      animation: true,
+      ShowProgressCount: true,
+      duration: 3000,
+    });
+    $('.pogress_bar_5').LineProgressbar({
+        percentage: 95,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_6').LineProgressbar({
+        percentage: 60,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_7').LineProgressbar({
+        percentage: 80,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_8').LineProgressbar({
+        percentage: 60,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_9').LineProgressbar({
+        percentage: 50,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_10').LineProgressbar({
+        percentage: 30,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    $('.pogress_bar_11').LineProgressbar({
+        percentage: 95,
+        fillBackgroundColor: 'orange',
+        height: '10px',
+        radius: '15px',
+        animation: true,
+        ShowProgressCount: true,
+        duration: 3000,
+    });
+    // THE SKILL RATING BAR SECTION ENDS HERE
 });
