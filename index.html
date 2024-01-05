@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/jquery-social-share-bar.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -33,12 +34,12 @@
         <div class="container nav_main">
             <div class="row">
                 <!-- THIS IS THE HEADER SECTION NAVIGATION ICON START HERE -->
-                <div class="col-xl-5 col-lg-3 col-6 nav_main1">
+                <div class="col-xl-5 col-lg-3 col-4 nav_main1">
                     <a href="https://shahadat70540.github.io/protfolio/"><img src="assets/img/logo-1.png" alt="MD Shahadat Hossain"></a>
                 </div>
                 <!-- THE HEADER SECTION NAVIGATION ICON ENDS HERE -->
                 <!-- THIS IS THE HEADER SECTION NAVIGATION NAV START HERE -->
-                <div class="col-xl-7 col-lg-9 col-6 nav_main2">
+                <div class="col-xl-7 col-lg-9 col-8 nav_main2">
                     <div class="nav_main_nav">
                         <nav>
                             <ul class="nav">
@@ -46,8 +47,26 @@
                                 <li class="nav-items"><a class="nav-link" href="#about">about</a></li>
                                 <li class="nav-items"><a class="nav-link disabled" href="">portfolio</a></li>
                                 <li class="nav-items"><a class="nav-link" href="#Services">services</a></li>
-                                <li class="nav-items"><a class="nav-link" href="">pricing</a></li>
-                                <li class="nav-items"><a class="nav-link" href=""><small>get in touch</small></a></li>
+                                <li id="web_menu" class="nav-items dropdown">
+                                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">my self</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#clients_love">clients love</a>
+                                        <a class="dropdown-item" href="#">skill rating</a>
+                                        <a class="dropdown-item" href="#">biography</a>
+                                        <a class="dropdown-item" href="#">early life</a>
+                                    </div>
+                                </li>
+                                <li id="mobile_menu" class="nav-items">
+                                    <a class="nav-link">my self
+                                        <ul>
+                                            <li><a href="#clients_love">clients love</a></li>
+                                            <li><a href="">skill rating</a></li>
+                                            <li><a href="">biography</a></li>
+                                            <li class="early"><a href="">early life</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="nav-items"><a class="nav-link active" href=""><small>get in touch</small></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -139,7 +158,6 @@
             </div>
         </section>
         <!-- THE ABOUT SECTION START HERE -->
-
         <!-- THIS IS THE SERVICES SECTION START HERE -->
         <section class="container" id="Services">
             <h1>Services</h1>
@@ -227,6 +245,48 @@
             <!-- THE SERVICES SECTION BOTTON ENDS HERE -->
         </section>
         <!-- THE SERVICES SECTION ENDS HERE -->
+
+        <!-- THIS IS THE CLIENT'S LOVE SECTION START HERE -->
+        <section class="container" id="clients_love">
+            <div class="row">
+                <div class="col-12">
+                    <div class="c_love">
+                        <!-- THIS IS THE CLIENT'S LOVE SECTION HEDDING START HERE -->
+                        <h1>client's l<span>❤️</span>ve</h1>
+                        <!-- THE CLIENT'S LOVE SECTION HEDDING ENDS HERE -->
+                        <!-- THIS IS THE CLIENT'S LOVE SECTION OWL-CAROUSEL START HERE -->
+                        <div class="carousel owl-carousel">
+                            <div class="single-carousel-item">
+                                <div class="client_1">
+                                    <p>Amazing work. Fantastic experience. Thank you!</p>
+                                    <h2><sup>⭐⭐⭐⭐⭐</sup> mataly <sup>⭐⭐⭐⭐⭐</sup></h2>
+                                    <h5>
+                                        <div class="uk_1">
+                                            <img src="assets/img/uk.png" alt="United Kingdom">
+                                        </div>
+                                        United Kingdom
+                                        <div class="uk_2">
+                                            <img src="assets/img/uk.png" alt="United Kingdom">
+                                        </div>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="single-carousel-item">
+                                <img src="assets/img/item_1 (2).jpg" alt="">
+                            </div>
+                            <div class="single-carousel-item">
+                                <img src="assets/img/item_1 (3).jpg" alt="">
+                            </div>
+                            <div class="single-carousel-item">
+                                <img src="assets/img/item_1 (4).jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- THE CLIENT'S LOVE SECTION OWL-CAROUSEL ENDS HERE -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- THE CLIENT'S LOVE SECTION START HERE -->
     </main>
     <!-- THE MAIN CONTAINT ENDS HERE -->
 
@@ -240,6 +300,7 @@
     <script src="assets/js/jquery-ui.min.js"></script>
     <script src="assets/js/jquery-social-share-bar.js"></script>
     <script src="assets/js/circle-progress.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 </html>

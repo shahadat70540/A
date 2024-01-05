@@ -47,4 +47,15 @@ $(document).ready(function(){
         animation: true,
       });
     // THE ABOUT SECTION PROGRESBAR ENDS HERE
+    // This is the Client's Love Section Start Here
+    $('.carousel').owlCarousel({
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      loop: true,
+      autoplayHoverPause: true,
+      smartSpeed: 3000,
+      nav: true,
+    });
+    // This is the Client's Love Section End Here
 });

@@ -4,6 +4,9 @@
     .nav_main_nav {
         display: none;
     }
+    .dropdown a {
+        display: none;
+    }
     /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
     /* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
     .slicknav_menu {
@@ -90,6 +93,9 @@
     .nav_main_nav {
         display: none;
     }
+    .dropdown a {
+        display: none;
+    }
     /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
     /* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
     .slicknav_menu {
@@ -146,6 +152,9 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* THIS IS THE HEADER SECTION NAVIGATION NAV START HERE */
     .nav_main_nav {
+        display: none;
+    }
+    .dropdown a {
         display: none;
     }
     /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
