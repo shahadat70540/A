@@ -677,6 +677,56 @@ body {
 }
 /* THE BIOGRAPHY PICTURE SECTION START HERE */
 /* THE BIOGRAPHY SECTION ENDS HERE */
+/* THIS IS THE EARLY LIFE SECTION START HERE */
+#early_life {
+    padding: 50px 0px;
+}
+/* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
+.early {
+    width: 350px;
+    height: 250px;
+    background-image: linear-gradient(20deg, red, blue);
+    box-shadow:  -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+    position: relative;
+    margin: auto;
+}
+.early_img_box {
+    background-color: #111827;
+    width: 330px;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.early_bio_mobile {
+    display: none;
+}
+/* THE EARLY LIFE SECTION PICTURE START HERE */
+/* THIS IS THE EARLY LIFE SECTION BIO START HERE */
+.early_bio {
+    padding-left: 30px;
+}
+.early_bio h1 {
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.early_bio p{
+    text-transform: capitalize;
+    text-align: justify;
+    color: rgb(156 163 175);
+    font-size: 18px;
+    padding: 0px 30px;
+}
+.ealry_img_mobile {
+    display: none;
+}
+/* THE EARLY LIFE SECTION BIO START HERE */
+/* THE EARLY LIFE SECTION START HERE */
 
 
 

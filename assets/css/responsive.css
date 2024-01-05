@@ -115,6 +115,34 @@
         height: 300px;
     }
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
+    /* THIS IS THE EARLY LIFE SECTION START HERE */
+    #early_life {
+        padding: 100px 0px;
+    }
+    /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
+    .early {
+        display: none;
+        width: 340px;
+        height: 240px;
+    }
+    .early_img_box {
+        width: 320px;
+        height: 220px;
+    }
+    .early_bio_mobile {
+        display: none;
+    }
+    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
+    .early_bio {
+        padding-left: 0px;
+        margin-bottom: 100px;
+    }
+    .ealry_img_mobile {
+        display: block;
+    }
+    /* THE EARLY LIFE SECTION BIO START HERE */
+    /* THE EARLY LIFE SECTION START HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -192,6 +220,34 @@
         height: 430px;
     }
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
+    /* THIS IS THE EARLY LIFE SECTION START HERE */
+    #early_life {
+        padding: 100px 0px;
+    }
+    /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
+    .early {
+        display: none;
+        width: 450px;
+        height: 350px;
+    }
+    .early_img_box {
+        width: 430px;
+        height: 330px;
+    }
+    .early_bio_mobile {
+        display: none;
+    }
+    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
+    .early_bio {
+        padding-left: 0px;
+        margin-bottom: 100px;
+    }
+    .ealry_img_mobile {
+        display: block;
+    }
+    /* THE EARLY LIFE SECTION BIO START HERE */
+    /* THE EARLY LIFE SECTION START HERE */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -275,6 +331,34 @@
         height: 430px;
     }
     /* THE BIOGRAPHY PICTURE SECTION START HERE */
+    /* THIS IS THE EARLY LIFE SECTION START HERE */
+    #early_life {
+        padding: 100px 0px;
+    }
+    /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
+    .early {
+        display: none;
+        width: 450px;
+        height: 350px;
+    }
+    .early_img_box {
+        width: 430px;
+        height: 330px;
+    }
+    .early_bio_mobile {
+        display: none;
+    }
+    /* THE EARLY LIFE SECTION PICTURE START HERE */
+    /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
+    .early_bio {
+        padding-left: 0px;
+        margin-bottom: 100px;
+    }
+    .ealry_img_mobile {
+        display: block;
+    }
+    /* THE EARLY LIFE SECTION BIO START HERE */
+    /* THE EARLY LIFE SECTION START HERE */
 }
 
 /* Large devices (desktops, 992px and up) */
