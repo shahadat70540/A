@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+    <link rel="stylesheet" href="assets/css/material-scrolltop.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="-5">
     <!-- THIS IS THE HEADER SECTION START HERE -->
     <header id="home">
         <!-- THIS IS THE HEADER SECTION BACKGROUND VIDEO START HERE -->
@@ -42,8 +43,8 @@
                 <!-- THIS IS THE HEADER SECTION NAVIGATION NAV START HERE -->
                 <div class="col-xl-7 col-lg-9 col-8 nav_main2">
                     <div class="nav_main_nav">
-                        <nav>
-                            <ul class="nav">
+                        <nav id="navbar-example2">
+                            <ul class="nav nav-pills">
                                 <li class="nav-items"><a class="nav-link" href="#home">home</a></li>
                                 <li class="nav-items"><a class="nav-link" href="#about">about</a></li>
                                 <li class="nav-items"><a class="nav-link disabled" href="">portfolio</a></li>
@@ -67,7 +68,7 @@
                                         </ul>
                                     </a>
                                 </li>
-                                <li class="nav-items"><a class="nav-link active" href=""><small>get in touch</small></a></li>
+                                <li class="nav-items"><a class="nav-link get" href=""><small>get in touch</small></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -400,13 +401,19 @@
                             <a href="https://www.instagram.com/shahadat70540" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/shahadat70540/" target="_blank">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/shahadat70540?tab=repositories" target="_blank">
                                 <i class="fa-brands fa-github-alt"></i>
                             </a>
-                            <a href="#">
+                            <a href="skype:live:shahadat70540?action" target="_blank">
+                                <i class="fa-brands fa-skype"></i>
+                            </a>
+                            <a href="https://wa.me/8801540077082" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@shahadat_70540/videos" target="_blank">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
                         </p>
@@ -442,6 +449,13 @@
     <script src="assets/js/circle-progress.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.lineProgressbar.js"></script>
+    <script src="assets/js/jquery.smoothscroll.min.js"></script>
+    <script src="assets/js/material-scrolltop.js"></script>
     <script src="assets/js/custom.js"></script>
+    <!-- THIS IS THE SCROLLTOP SECTION START HERE -->
+    <button class="material-scrolltop" type="button">
+        <span><i class="fa-solid fa-angles-up"></i></span>
+    </button>
+    <!-- THE SCROLLTOP SECTION ENDS HERE -->
 </body>
 </html>
