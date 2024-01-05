@@ -538,6 +538,82 @@ body {
 }
 /* THE CLIENT'S LOVE SECTION CAROUSEL START HERE */
 /* THE CLIENT'S LOVE SECTION START HERE */
+/* THIS IS THE SKILL RATING SECTION START HERE */
+#skill_rating {
+    padding: 50px 0px;
+}
+/* THIS IS THE SKILL RATING SECTION HEDDING START HERE */
+.skill_hedding {
+    font-family: MontserratAlternates;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+/* THE SKILL RATING SECTION HEDDING ENDS HERE */
+/* THIS IS THE SKILL RATING PICTURE SECTION START HERE */
+.skill_rating_img_one{
+    background-image: linear-gradient(20deg, red, blue);
+    box-shadow:  -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+    width: 450px;
+    height: 450px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin: 10px auto;
+    position: relative;
+}
+.skill_rating_img_two {
+    background-color: #111827;
+    width: 430px;
+    height: 430px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+/* THE SKILL RATING PICTURE SECTION ENDS HERE */
+/* THIS IS THE SKILL RATING BAR SECTION START HERE */
+.skill_rating {
+    padding: 50px;
+}
+.skill_rating p {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.pogress_bar_4 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_5 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_6 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_7 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_8 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_9 {
+    width: 100%;
+    height: 20px;
+}
+.pogress_bar_10 {
+    width: 100%;
+    height: 20px;
+}
+/* THE SKILL RATING BAR SECTION ENDS HERE */
+/* THE SKILL RATING SECTION ENDS HERE */
 
 
 

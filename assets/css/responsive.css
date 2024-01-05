@@ -85,6 +85,18 @@
         grid-gap: 40px;
     }
     /* THE SERVICES SECTION ENDS HERE */
+    /* THIS IS THE SKILL RATING SECTION START HERE */
+    /* THIS IS THE SKILL RATING PICTURE SECTION START HERE */
+    .skill_rating_img_one{
+        width: 320px;
+        height: 320px;
+    }
+    .skill_rating_img_two {
+        width: 300px;
+        height: 300px;
+    }
+    /* THE SKILL RATING PICTURE SECTION ENDS HERE */
+    /* THE SKILL RATING SECTION ENDS HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */
