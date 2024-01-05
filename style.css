@@ -682,51 +682,101 @@ body {
     padding: 50px 0px;
 }
 /* THIS IS THE EARLY LIFE SECTION PICTURE START HERE */
-.early {
-    width: 350px;
-    height: 250px;
+.early_img {
+    width: 375px;
+    height: 275px;
+    margin: auto;
     background-image: linear-gradient(20deg, red, blue);
     box-shadow:  -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
     position: relative;
-    margin: auto;
 }
 .early_img_box {
     background-color: #111827;
-    width: 330px;
-    height: 230px;
+    width: 355px;
+    height: 255px;
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
     margin: auto;
     overflow: hidden;
 }
-.early_bio_mobile {
-    display: none;
-}
-/* THE EARLY LIFE SECTION PICTURE START HERE */
+/* THE EARLY LIFE SECTION PICTURE ENDS HERE */
 /* THIS IS THE EARLY LIFE SECTION BIO START HERE */
-.early_bio {
-    padding-left: 30px;
-}
 .early_bio h1 {
+    padding: 0px 0px 30px 30px;
+    text-transform: capitalize;
     font-weight: 600;
-    text-transform: capitalize;
-    padding-bottom: 20px;
+    color: whitesmoke;
 }
-.early_bio p{
-    text-transform: capitalize;
+.early_bio p {
+    padding: 0px 60px;
     text-align: justify;
-    color: rgb(156 163 175);
+    color: rgb(203 213 225);
     font-size: 18px;
-    padding: 0px 30px;
+    text-transform: capitalize;
 }
-.ealry_img_mobile {
+.copy_img {
     display: none;
 }
 /* THE EARLY LIFE SECTION BIO START HERE */
-/* THE EARLY LIFE SECTION START HERE */
+/* THE EARLY LIFE SECTION ENDS HERE */
+/* THIS IS THE FOOTER SECTION START HERE */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 100px;
+}
+footer h1 {
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+footer p a {
+    transition: 2s;
+}
+footer p a i {
+    color: whitesmoke;
+    margin-right: 5px;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+    border: 2px solid whitesmoke;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+footer p a:hover i {
+    background-color: #1E37C4;
+}
+.main_one {
+    text-align: left;
+    padding-top: 50px;
+}
+.main_one a {
+    color: rgb(203 213 225);
+    font-weight: 300;
+    font-size: 14px;
+}
+.main_one a span {
+    font-size: 20px;
+    color: #FF4500;
+}
+.main_two {
+    text-align: right;
+    padding-top: 50px;
+    color: rgb(203 213 225);
+    font-weight: 300;
+    font-size: 14px;
+}
+.main_two a {
+    font-size: 20px;
+    color: rgb(22 55 238 );
+    font-weight: 600;
+}
+/* THE FOOTER SECTION ENDS HERE */
 
 
 
