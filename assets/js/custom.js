@@ -28,7 +28,8 @@ $(document).ready(function(){
         fill: {
         gradient: ["#F70000", "rgb(22 55 238 )"]
         },
-        animation: true,
+        animation: { duration: 5000, easing: "circleProgressEasing" },
+        animationStartValue: 0.0,
       });
     $('.pogress_bar_2').circleProgress({
         value: 1,
@@ -36,7 +37,8 @@ $(document).ready(function(){
         fill: {
         gradient: ["rgb(22 55 238 )", "#F70000"]
         },
-        animation: true,
+        animation: { duration: 5000, easing: "circleProgressEasing" },
+        animationStartValue: 0.0,
       });
     $('.pogress_bar_3').circleProgress({
         value: 1,
@@ -44,7 +46,8 @@ $(document).ready(function(){
         fill: {
         gradient: ["#F70000", "rgb(22 55 238 )"]
         },
-        animation: true,
+        animation: { duration: 5000, easing: "circleProgressEasing" },
+        animationStartValue: 0.0,
       });
     // THE ABOUT SECTION PROGRESBAR ENDS HERE
     // This is the Client's Love Section Start Here
@@ -141,5 +144,15 @@ $(document).ready(function(){
       duration: 1000,
       easing: 'swing',
     });
-  // THE SCROLLTOP SECTION ENDS HERE
+    // THE SCROLLTOP SECTION ENDS HERE
+    // THE WOW JS START HERE
+    new WOW().init({
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      live: true,
+    });
+    wow.init();
+    // THE WOW JS ENDS HERE
 });
