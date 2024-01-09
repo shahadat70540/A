@@ -67,7 +67,6 @@ body {
 }
 .nav_main2 nav ul li a {
     border-radius: 10px;
-    font-family: Inter-Regular;
     color: whitesmoke;
     text-transform: capitalize;
     font-size: 18px;
@@ -79,6 +78,10 @@ body {
 }
 .nav_main2 nav ul li:last-child a:hover {
     background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: whitesmoke;
+    background-color: #1E37C4;
 }
 .get small {
     background-color: rgb(22 55 238 );
@@ -100,6 +103,11 @@ body {
 }
 #mobile_menu {
     display: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #1E37C4;
 }
 /* THE HEADER SECTION NAVIGATION NAV ENDS HERE */
 /* THIS IS THE HEADER SECTION NAVIGATION SLICKNAV START HERE */
