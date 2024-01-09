@@ -68,9 +68,9 @@ $(document).ready(function(){
       fillBackgroundColor: 'orange',
       height: '10px',
       radius: '15px',
-      animation: true,
       ShowProgressCount: true,
-      duration: 3000,
+      duration: 5000,
+      animation: true,
     });
     $('.pogress_bar_5').LineProgressbar({
         percentage: 95,
@@ -79,7 +79,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_6').LineProgressbar({
         percentage: 60,
@@ -88,7 +88,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_7').LineProgressbar({
         percentage: 80,
@@ -97,7 +97,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_8').LineProgressbar({
         percentage: 60,
@@ -106,7 +106,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_9').LineProgressbar({
         percentage: 50,
@@ -115,7 +115,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_10').LineProgressbar({
         percentage: 30,
@@ -124,7 +124,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     $('.pogress_bar_11').LineProgressbar({
         percentage: 95,
@@ -133,7 +133,7 @@ $(document).ready(function(){
         radius: '15px',
         animation: true,
         ShowProgressCount: true,
-        duration: 3000,
+        duration: 5000,
     });
     // THE SKILL RATING BAR SECTION ENDS HERE
     // THIS IS THE SMOOTH SCROLL START HERE
